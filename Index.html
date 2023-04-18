@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src\style.css">
+    <script src="https://kit.fontawesome.com/5c3c5c30d2.js" crossorigin="anonymous"></script> 
+    <title>MRBEAR</title>
+</head>
+<body>
+<!------------------------------HEADER--------------------------------------->
+    <div id="header">
+        <div class="container">
+            <Nav>
+                <img src="src\bin\images\logok.png" class="Logo"></img>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home </a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </Nav>
+            <div class="header-text">
+                    <p>Freelancer <span>&</span> Video Editor</p>
+                    <h1>Hi,I'm <span>Rohit</span> <br> Aka Mrbear From India</h1>
+            </div>
+        </div>
+    </div>
+<!----------------------------------ABOUT------------------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="src\bin\images\User.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span>About</span> Me</h1>
+                    <p>Thanks for stopping by my Wesite! Hi I am Rohit a 21 year old making dope gaming videos 
+                    and doing partime Free lancing for you beautiful people. Make sure to hit that to see my work and
+                    folow me on social media,I promise you won't regret it :)</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experince')">Experince</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Devlopment</span><br> Web app Devlopment </li>
+                            <li><span>Video editing</span><br> Editing video / youtube </li>
+                            <li><span>App Devlopment</span><br> only for Android </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experince">
+                        <ul>
+                            <li><span>2020 - current</span><br> Web Devlopment </li>
+                            <li><span>2019 - current</span><br> Editing video / youtube </li>
+                            <li><span>current</span><br> Web app Devlopment </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Diploma in CSE from Techno India University,West Bengal</li>
+                            <li><span>2025</span><br>BTECH in CSE from Techno India University,West Bengal </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------------------Services-------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"><span>My</span> Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Devlopment</h2>
+                <p>I can make a full fledge working website.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-video-slash"></i>
+                <h2>Video Editing</h2>
+                <p>Do you want me to make yours videos look cool for 
+                <br>youtube then click on the link below.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-google-play"></i>
+                <h2>App Devlopment</h2>
+                <p>Do you want me to make yours videos look cool for 
+                <br>youtube then click on the link below.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!---------------------------Porfolio-------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"><span>My</span> Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="src\bin\images\images1\work-3.png">
+                <div class="layer">
+                    <h3>Ecommerse Store</h3>
+                    <p>A eccommerse store online</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="src\bin\images\images1\work-2.png">
+                <div class="layer">
+                    <h3>Video editing for youtube</h3>
+                    <p>this a screen shot of the video i edited for my youtube channel</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="src\bin\images\images1\work-1.png">
+                <div class="layer">
+                    <h3>App Development</h3>
+                    <p>this a screen shot of the video i edited for my youtube channel</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!---------------------------CONTACT----------------------------------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"><Span>Contact</Span> Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> mrbear2002.fans@gmail.com</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-discord"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></i></a>
+                    </div>
+                    <a href="src\bin\images\Background-img-2.png" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> © 2023 Rohit aka Mrbear.All Rights Reserved.</p>
+        </div>
+    </div>
+
+<!---------------------------JAVA SCRIPT----------------------------------------->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+        for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+        }
+    
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+<!----------------------------JAVA SCRIPT----------------------------------------->
+
+
+
+
+
+
+
+
+
+</body>
+</html>
